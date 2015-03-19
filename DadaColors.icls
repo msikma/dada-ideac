@@ -1,4 +1,4 @@
-<scheme name="DadaExportScheme" version="124" parent_scheme="Default">
+<scheme name="Dada" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
