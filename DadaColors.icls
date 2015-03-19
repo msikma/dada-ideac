@@ -28,16 +28,30 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="BASH.EXTERNAL_COMMAND">
+    <option name="BASH.BACKQUOTE">
       <value>
-        <option name="FOREGROUND" value="c57633" />
+        <option name="FOREGROUND" value="1bcdac" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="BASH.INTERNAL_COMMAND">
+    <option name="BASH.EXTERNAL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="b0c95" />
+        <option name="FOREGROUND" value="28a6c8" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="BASH.SHEBANG">
+      <value>
+        <option name="FOREGROUND" value="1bcdac" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="BASH.VAR_USE">
+      <value>
+        <option name="FOREGROUND" value="ff9000" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -97,21 +111,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="75715e" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.BOOLEAN">
       <value>
         <option name="FOREGROUND" value="ae81ff" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.CLASS_NAME">
-      <value>
-        <option name="FOREGROUND" value="a6e22e" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -135,14 +137,7 @@
     </option>
     <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
       <value>
-        <option name="FOREGROUND" value="a9b7c6" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="66d9ef" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="f92672" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -153,33 +148,10 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME">
-      <value>
-        <option name="FOREGROUND" value="a6e22e" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.HEREDOC_CONTENT">
-      <value>
-        <option name="FOREGROUND" value="e6db74" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.HEREDOC_ID">
-      <value>
-        <option name="FOREGROUND" value="e6db74" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.HEREGEX_CONTENT">
       <value>
-        <option name="FOREGROUND" value="e6db74" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.HEREGEX_ID">
-      <value>
-        <option name="FOREGROUND" value="e6db74" />
+        <option name="FOREGROUND" value="ffcf39" />
+        <option name="BACKGROUND" value="494629" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -189,34 +161,15 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="f92672" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="75715e" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="ae81ff" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.OPERATIONS">
       <value>
         <option name="FOREGROUND" value="f92672" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="fd971f" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -232,25 +185,14 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.REGULAR_EXPRESSION_FLAG">
-      <value>
-        <option name="FOREGROUND" value="e6db74" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.REGULAR_EXPRESSION_ID">
       <value>
-        <option name="FOREGROUND" value="e6db74" />
+        <option name="FOREGROUND" value="ffcf39" />
+        <option name="BACKGROUND" value="494629" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="COFFEESCRIPT.STRING">
-      <value>
-        <option name="FOREGROUND" value="e6db74" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.STRING_LITERAL">
       <value>
         <option name="FOREGROUND" value="e6db74" />
         <option name="EFFECT_TYPE" value="0" />
@@ -737,7 +679,7 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c3c3c3" />
+        <option name="FOREGROUND" value="75715e" />
         <option name="BACKGROUND" value="f0f0f0" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -847,7 +789,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="3c3d3c" />
+        <option name="FOREGROUND" value="75715e" />
         <option name="BACKGROUND" value="101010" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="3c3d3c" />
@@ -856,10 +798,8 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c7c7ff" />
-        <option name="BACKGROUND" value="161717" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="c7c7ff" />
+        <option name="FOREGROUND" value="7d51ff" />
+        <option name="EFFECT_COLOR" value="7d51ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -957,9 +897,8 @@
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c7c7ff" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="c7c7ff" />
+        <option name="FOREGROUND" value="3d82ff" />
+        <option name="EFFECT_COLOR" value="3d82ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1767,8 +1706,8 @@
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="7f0000" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="28a6c8" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1788,10 +1727,11 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c7c7ff" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="e0dcc6" />
+        <option name="BACKGROUND" value="414138" />
+        <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
-        <option name="EFFECT_TYPE" value="0" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
@@ -1820,7 +1760,7 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4a3f10" />
+        <option name="BACKGROUND" value="414138" />
         <option name="EFFECT_COLOR" value="f8f8f2" />
         <option name="ERROR_STRIPE_COLOR" value="ffff00" />
         <option name="EFFECT_TYPE" value="1" />
@@ -1848,12 +1788,6 @@
     <option name="XML_PROLOGUE">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="XML_TAG_DATA">
-      <value>
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
